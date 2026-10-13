@@ -1,0 +1,41 @@
+{
+ "_comment": "Copy to registry.json and edit. scan_roots are the folders to audit; projects lists folders that must contain a standard set of documents.",
+ "scan_roots": [
+  "~/projects"
+ ],
+ "doc_extensions": [
+  ".md"
+ ],
+ "ignore_dir_names": [
+  "node_modules",
+  ".git",
+  ".venv",
+  "__pycache__",
+  "dist",
+  "build",
+  "archive"
+ ],
+ "exclude_docs": [
+  "CONVENTIONS.md"
+ ],
+ "dead_path_exclude_docs": [],
+ "dead_path_exclude_basenames": [],
+ "dead_path_exclude_prefixes": [],
+ "extra_crosslink_targets": [],
+ "projects": [
+  {
+   "path": "(internal path)",
+   "suite": [
+    "README.md"
+   ]
+  }
+ ],
+ "placeholders": [
+  "YYYY-MM-DD",
+  "<name>",
+  "..."
+ ],
+ "path_allowlist_regex": [],
+ "stale_days_info": 120,
+ "stale_days_warning": 240
+}
