@@ -37,7 +37,7 @@ cron or a session-start hook.
 The first version reported 1,801 warnings, so nobody read it, which is worse than having
 no auditor. It was treating raw source material (exports, transcripts) as documentation.
 Raw material cannot be out of date; only a curated document can. The exclusions in the
-registry exist for that reason. On my own server it now checks 869 documents on every
+registry exist for that reason. On my own server it now checks 859 documents on every
 session start.
 
 ## How it was made
