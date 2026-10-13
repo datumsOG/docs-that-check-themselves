@@ -45,7 +45,7 @@ in the same way.
 
 | Verb | Example | Passes when |
 |---|---|---|
-| `exists <path>` | `<!-- @check: exists (internal path) -->` | path exists |
+| `exists <path>` | `<!-- @check: exists docs/applied.md -->` | path exists |
 | `absent <path>` | `<!-- @check: absent ~/sun-v2 -->` | path does **not** exist |
 | `grep <pat> <path>` | `<!-- @check: grep "LIVE" HANDOFF.md -->` | regex found in file |
 | `nogrep <pat> <path>` | `<!-- @check: nogrep "yourdomain" setup.md -->` | regex **absent** (placeholder guard) |

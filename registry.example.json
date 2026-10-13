@@ -24,7 +24,7 @@
  "extra_crosslink_targets": [],
  "projects": [
   {
-   "path": "(internal path)",
+   "path": "internal/example",
    "suite": [
     "README.md"
    ]
